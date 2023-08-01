@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Country Information</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #5d8ac47c;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #022347;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .image-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: 10%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .description {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .description p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #022347;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Country Information</h1>
+    <label for="country-select">Select a country:</label>
+    <select id="country-select">
+        <!-- We'll populate the options dynamically using JavaScript -->
+    </select>
+
+    <div id="country-info">
+        <!-- Country information will be displayed here -->
+    </div>
+
+    <script src="countries_info.js"></script>
+</body>
+</html>
